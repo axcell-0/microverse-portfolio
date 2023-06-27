@@ -1,24 +1,18 @@
+const hamburgerIcon = document.getElementById('hamburger-icon');
+const closeIcon = document.getElementById('icon-close');
+const mainMenu = document.getElementById('main-menu');
+const listItem = document.querySelectorAll('.menu-list ul li');
 
-const iconMenu = document.getElementById("icon-menu");
-const mainMenu = document.getElementById("main-menu");
-const closeMenu = document.getElementById("icon-close");
-
-iconMenu.addEventListener("click", () => {
-  iconMenu.style.display = "none";
-  mainMenu.classList.toggle("menu-show");
+hamburgerIcon.addEventListener('click', () => {
+  mainMenu.classList.add('menushow');
 });
-// closeMenu.addEventListener("click", () => {
-//   iconMenu.style.display = "flex";
+
+closeIcon.addEventListener('click', () => {
+  mainMenu.classList.remove('menushow');
+});
+
+// listItem.forEach((item) => {
+//   item.addEventListener('click', () => {
+//     mainMenu.classList.remove('menushow');
+//   });
 // });
-// closeMenu.addEventListener("click", () =>
-//   mainMenu.classList.toggle("menu-show")
-// );
-// mainMenu.addEventListener("click", () =>
-//   mainMenu.classList.toggle("menu-show")
-// );
-// mainMenu.addEventListener("click", () => {
-//   iconMenu.style.display = "flex";
-// });
-// closeMenu.addEventListener("click", () =>
-//   mainMenu.classList.toggle("menu-show")
-// );
