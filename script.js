@@ -10,3 +10,9 @@ hamburgerIcon.addEventListener('click', () => {
 closeIcon.addEventListener('click', () => {
   mainMenu.classList.remove('menushow');
 });
+
+listItem.forEach((item) => {
+  item.addEventListener('click', () => {
+    mainMenu.classList.remove('menushow');
+  });
+});
