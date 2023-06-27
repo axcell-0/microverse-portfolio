@@ -11,25 +11,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>THIERRY Portfolio</title>
   </head>
-  <body class="page">
+  <body>
+    <header class="header">
+      <div class="background-image-d">
+        <img
+          src="./images/desktop-img/header-illustration-desktop.svg"
+          alt="header-illustration-desktop"
+        />
+      </div>
+      <div id="hamburger-icon" id="icon-menu">
+        <img class="hamburger" src="./images/mobile-first-img/menu.svg" alt="hamburger" />
+      </div>
+      <nav class="menu-list" id="main-menu">
+        <div class="closing-icon" id="icon-close">
+          <img src="./images/mobile-first-img/x.svg" alt="closing-icon" />
+        </div>
+        <ul class="menu-item">
+          <li id="list-item"><a href="#project">Portfolio</a></li>
+          <li id="list-item"><a href="#about">About</a></li>
+          <li id="list-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="header-d">
+        <li><a href="#project">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
     <main>
-      <section>
-        <header class="header">
-          <div class="background-image-d">
-            <img
-              src="./images/desktop-img/header-illustration-desktop.svg"
-              alt="header-illustration-desktop"
-            />
-          </div>
-          <img class="hamburger" src="./images/mobile-first-img/menu.svg" alt="hamburger" />
-          <ul class="header-d">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </header>
         <div class="headline">
           <div class="background-image">
             <img src="./images/mobile-first-img/header.svg" alt="header-background" />
@@ -54,8 +65,7 @@
             <img src="./images/mobile-first-img/normal-button.svg" alt="normal-bottun" />
           </div>
         </div>
-      </section>
-      <div class="hdescription-d">
+      <div class="hdescription-d" id="project">
         <h2 class="hdescription">MY RECENT WORKS</h2>
       </div>
       <section class="section-placeholder">
@@ -192,7 +202,7 @@
           </div>
         </div>
       </section>
-      <section class="about-container">
+      <section class="about-container" id="about">
         <div class="text-aline">
           <div class="plane-image">
             <img src="./images/works-img/plane.svg" alt="plane" />
@@ -268,7 +278,7 @@
             </div>
         </div>
 
-                    <div class="form-cart">
+                    <div class="form-cart" id="contact">
                       <section class="form">
                         <p class="about-p">
                           I'm always interested in hearing about new projects,
@@ -353,5 +363,6 @@
             </div>
           </article>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
