@@ -213,25 +213,29 @@ body {
 }
 
 .text-container {
-  border: 1px solid #ebf0ee;
   width: 100%;
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 12px;
   margin-top: 250px;
   background: white;
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   text-align: center;
   color: #3a4a42;
   padding-top: 15px;
+  border: 1px solid #ebf0ee;
 }
 
 .button1 {
   padding-bottom: 36px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .button1:hover {
