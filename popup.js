@@ -1,4 +1,4 @@
-export const works = [
+export const workcards = [
   {
     title: 'Multi Post Stories',
     subtitle: 'Gain+Glory',

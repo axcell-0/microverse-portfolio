@@ -193,8 +193,6 @@ body {
 }
 
 .placeholder-container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   padding: 10%;
 }
@@ -204,7 +202,7 @@ body {
   flex-direction: column;
 }
 
-.placeholder {
+.cards {
   display: flex;
   flex-direction: column;
   background: #ebf0ee;
@@ -212,7 +210,7 @@ body {
   border-radius: 8px;
 }
 
-.text-container {
+.text-box {
   border: 1px solid #ebf0ee;
   width: 100%;
   justify-content: center;
@@ -224,7 +222,7 @@ body {
   background: white;
 }
 
-h1 {
+.text {
   text-align: center;
   color: #3a4a42;
   padding-top: 15px;
@@ -382,7 +380,7 @@ ul {
   list-style: none;
 }
 
-.text-container ul {
+.text-box ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -392,7 +390,7 @@ ul {
   padding: 20px 0;
 }
 
-.text-container ul li {
+.text-item {
   color: #3a4a42;
   background: #ebf0ee;
   border-radius: 4px;
@@ -458,7 +456,7 @@ form {
   padding: 10px;
 }
 
-::placeholder {
+::cards {
   padding: 10px;
 }
 
@@ -573,13 +571,10 @@ textarea {
   }
 
   .placeholder-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     padding: 0;
   }
 
-  .text-container {
+  .text-box {
     display: flex;
     flex-direction: column;
     align-items: center;
