@@ -50,13 +50,11 @@ const placeholders = [
   },
 ];
 
-// eslint-disable-next-line no-unused-vars
 const openModal = () => {
   document.getElementById('body').classList.add('overlay');
   document.getElementById('detail-container').classList.add('detail-view');
 };
 
-// eslint-disable-next-line no-unused-vars
 const closeModal = () => {
   document.getElementById('body').classList.remove('overlay');
   document.getElementById('detail-container').classList.remove('detail-view');
