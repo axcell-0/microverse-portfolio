@@ -1110,7 +1110,7 @@ textarea {
   color: #36b37e;
 }
 
-/* .third-text {
+.third-text {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -1141,4 +1141,4 @@ textarea {
   letter-spacing: 0.03em;
   padding: 10px;
   border-radius: 4px;
-} */
+}
