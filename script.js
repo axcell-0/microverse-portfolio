@@ -93,6 +93,6 @@ const displaySectionPlaceHolder = () => {
 };
 displaySectionPlaceHolder();
 
-// const button = document.getElementById('openModal');
+const button = document.getElementById('openModal');
 
-// button.addEventListener('click', openModal());
+button.addEventListener('click', openModal());
