@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>THIERRY Portfolio</title>
   </head>
-  <body>
+  <body id="body">
     <header class="header">
       <div class="background-image-d">
         <img
@@ -22,7 +22,11 @@
         />
       </div>
       <div id="hamburger-icon" id="icon-menu">
-        <img class="hamburger" src="./images/mobile-first-img/menu.svg" alt="hamburger" />
+        <img
+          class="hamburger"
+          src="./images/mobile-first-img/menu.svg"
+          alt="hamburger"
+        />
       </div>
       <nav class="menu-list" id="main-menu">
         <div class="closing-icon" id="icon-close">
@@ -41,86 +45,55 @@
       </ul>
     </header>
     <main>
-        <div class="headline">
-          <div class="background-image">
-            <img src="./images/mobile-first-img/header.svg" alt="header-background" />
-          </div>
-          <h1 class="lines">
-            Hey there I'm THIERRY
-            <div class="middle">I'm a Software Developer</div>
-          </h1>
-          <p class="description">
-            I can help you build a product, feature or website Look through some
-            of my work and experience! If you like what you see and have a
-            project you need coded, don’t hesitate to contact me.
-          </p>
-          <ul class="socials">
-            <li><img src="./images/mobile-first-img/github.svg" alt="github" /></li>
-            <li><img src="./images/mobile-first-img/linkedin.svg" alt="linkeldn" /></li>
-            <li><img src="./images/mobile-first-img/twitter.svg" alt="twitter" /></li>
-            <li><img src="./images/mobile-first-img/angellist.svg" alt="angellist" /></li>
-            <li><img src="./images/mobile-first-img/medium.svg" alt="medium" /></li>
-          </ul>
-          <div class="button">
-            <img src="./images/mobile-first-img/normal-button.svg" alt="normal-bottun" />
-          </div>
+      <div class="headline">
+        <div class="background-image">
+          <img
+            src="./images/mobile-first-img/header.svg"
+            alt="header-background"
+          />
         </div>
+        <h1 class="lines">
+          Hey there I'm THIERRY
+          <div class="middle">I'm a Software Developer</div>
+        </h1>
+        <p class="description">
+          I can help you build a product, feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hesitate to contact me.
+        </p>
+        <ul class="socials">
+          <li>
+            <img src="./images/mobile-first-img/github.svg" alt="github" />
+          </li>
+          <li>
+            <img src="./images/mobile-first-img/linkedin.svg" alt="linkeldn" />
+          </li>
+          <li>
+            <img src="./images/mobile-first-img/twitter.svg" alt="twitter" />
+          </li>
+          <li>
+            <img
+              src="./images/mobile-first-img/angellist.svg"
+              alt="angellist"
+            />
+          </li>
+          <li>
+            <img src="./images/mobile-first-img/medium.svg" alt="medium" />
+          </li>
+        </ul>
+        <div class="button">
+          <img
+            src="./images/mobile-first-img/normal-button.svg"
+            alt="normal-bottun"
+          />
+        </div>
+      </div>
       <div class="hdescription-d" id="project">
         <h2 class="hdescription">MY RECENT WORKS</h2>
       </div>
 
-      <div id="detail-container">
-        <div id="detail-container">
-          <div class="detail detail-view" id="detail" style="display: block">
-            <div class="detail-container">
-              <button class="detail-close-btn" id="close-card"></button>
-              <div class="image-container"></div>
-              <div class="detail-text-container">
-                <div class="detail-header-box">
-                  <h3 class="detail-text-header" id="detail-title">
-                    Keeping track of hundreds of components
-                  </h3>
-                  <div class="detail-btn-box">
-                    <button class="detail-btn">
-                      See live<a href="https://danielad10.github.io/My-Portfolio/"
-                        ><img src="./images/popup-img/seelive-btn.svg" alt="Live icon"
-                      /></a></button
-                    ><button class="detail-btn">
-                      See source<a href="https://github.com/DanielAD10/My-Portfolio"
-                        ><img
-                          src="./images/popup-img/seesrc-btn.svg"
-                          alt="GitHub icon"
-                      /></a>
-                    </button>
-                  </div>
-                </div>
-                <div>
-                  <ul class="detail-list-box">
-                    <li class="list-items">Codekit</li>
-                    <li class="list-items">GitHub</li>
-                    <li class="list-items">JavaScript</li>
-                    <li class="list-items">Bootstrap</li>
-                    <li class="list-items">Terminal</li>
-                    <li class="list-items">Codepen</li>
-                  </ul>
-                </div>
-                <div class="detail-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry's standard dummy text
-                  ever since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it 1960s with the releaLorem Ipsum is simply
-                  dummy text of the printing and typesetting industry. Lorem Ipsum
-                  has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  1960s with the relea<br />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <section id="section-placeholder" class="section-placeholder"></section>
-     
+
       <section class="about-container" id="about">
         <div class="text-aline">
           <div class="plane-image">
@@ -145,143 +118,183 @@
             <button class="button-text">Get my resume</button>
           </div>
         </div>
-    </section>
+      </section>
 
-        <div class="section6">
-            <div class="holder-text">
-              <img src="./images/works-img/holder.svg" alt="holder" />
-              <div class="holder-text1">
-                <img src="./images/works-img/icons.svg" alt="icons" />
-                <div class="Language">
-                  <p>Language</p>
-                </div>
-                <ul class="media">
-                  <li>JavaScript</li>
-                  <li>Ruby</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </div>
+      <div class="section6">
+        <div class="holder-text">
+          <img src="./images/works-img/holder.svg" alt="holder" />
+          <div class="holder-text1">
+            <img src="./images/works-img/icons.svg" alt="icons" />
+            <div class="Language">
+              <p>Language</p>
             </div>
-            <div class="holder-text">
-              <img src="./images/works-img/holder.svg" alt="holder" />
-              <div class="holder-text1">
-                <img src="./images/works-img/frame.svg" alt="frame-icon" />
-                <div class="Language">
-                  <p>Frameworks</p>
-                </div>
-                <ul class="media">
-                  <li>React.js</li>
-                  <li>Ruby on Rails</li>
-                  <li>RSpec</li>
-                  <li>Capybara</li>
-                  <li>Selenium</li>
-                </ul>
-              </div>
-            </div>
-            <div class="holder-text">
-              <img src="./images/works-img/holder.svg" alt="holder" />
-              <div class="holder-text1 desktop-text">
-                <img src="./images/works-img/electric.svg" alt="electric-icon" />
-                <div class="Language">
-                  <p>Skills</p>
-                </div>
-                <ul class="media">
-                  <li>Database Management</li>
-                  <li>Version Controle</li>
-                  <li>CLI</li>
-                  <li>WEb Development</li>
-                  <li>API Design</li>
-                  <ul>
-               </div>
-            </div>
+            <ul class="media">
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
         </div>
-
-                    <div class="form-cart" id="contact">
-                      <section class="form">
-                        <p class="about-p">
-                          I'm always interested in hearing about new projects,
-                          so if you'd like to chat please get in touch.
-                        </p>
-                        <form
-                          action="https://formspree.io/f/xwkjrzvw"
-                          method="POST"
-                        >
-                          <ul class="inputs">
-                            <li>
-                              <label for="name"></label>
-                              <input
-                                type="text"
-                                id="name"
-                                name="user_name"
-                                maxlength="30"
-                                required
-                                placeholder="Full name"
-                              />
-                            </li>
-                            <li>
-                              <label for="email"></label>
-                              <input
-                                type="email"
-                                id="mail"
-                                name="email"
-                                required
-                                placeholder="Email address"
-                              />
-                            </li>
-                            <li>
-                              <label for="msg" aria-placeholder=""></label>
-                              <textarea
-                                id="msg"
-                                name="msg"
-                                maxlength="500"
-                                required
-                                placeholder="Hey I’d like to connect to..."
-                              ></textarea>
-                            </li>
-                          </ul>
-                          <button class="button-text">Get in touch</button>
-                        </form>
-                        <div class="final-text">
-                          <div class="details">
-                            <p class="email">noumbuht@gmail.com</p>
-                            <div class="contact-b">
-                              <img
-                                src="./images/works-img/footer-backgroung.svg"
-                                alt="footer-backgroung"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                    <div>
-                      <ul class="socials-end">
-                        <li>
-                          <img src="./images/mobile-first-img/github.svg" alt="github" />
-                        </li>
-                        <li>
-                          <img src="./images/mobile-first-img/linkedin.svg" alt="linkeldn" />
-                        </li>
-                        <li>
-                          <img src="./images/mobile-first-img/twitter.svg" alt="twitter" />
-                        </li>
-                        <li>
-                          <img
-                            src="./images/mobile-first-img/angellist.svg"
-                            alt="angellist"
-                          />
-                        </li>
-                        <li>
-                          <img src="./images/mobile-first-img/medium.svg" alt="medium" />
-                        </li>
-                      </ul>
-                    </div>
-                  </ul>
-                </ul>
+        <div class="holder-text">
+          <img src="./images/works-img/holder.svg" alt="holder" />
+          <div class="holder-text1">
+            <img src="./images/works-img/frame.svg" alt="frame-icon" />
+            <div class="Language">
+              <p>Frameworks</p>
             </div>
-          </article>
+            <ul class="media">
+              <li>React.js</li>
+              <li>Ruby on Rails</li>
+              <li>RSpec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+        </div>
+        <div class="holder-text">
+          <img src="./images/works-img/holder.svg" alt="holder" />
+          <div class="holder-text1 desktop-text">
+            <img src="./images/works-img/electric.svg" alt="electric-icon" />
+            <div class="Language">
+              <p>Skills</p>
+            </div>
+            <ul class="media">
+              <li>Database Management</li>
+              <li>Version Controle</li>
+              <li>CLI</li>
+              <li>WEb Development</li>
+              <li>API Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-cart" id="contact">
+        <section class="form">
+          <p class="about-p">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </p>
+          <form action="https://formspree.io/f/xwkjrzvw" method="POST">
+            <ul class="inputs">
+              <li>
+                <label for="name"></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="user_name"
+                  maxlength="30"
+                  required
+                  placeholder="Full name"
+                />
+              </li>
+              <li>
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="mail"
+                  name="email"
+                  required
+                  placeholder="Email address"
+                />
+              </li>
+              <li>
+                <label for="msg" aria-placeholder=""></label>
+                <textarea
+                  id="msg"
+                  name="msg"
+                  maxlength="500"
+                  required
+                  placeholder="Hey I’d like to connect to..."
+                ></textarea>
+              </li>
+            </ul>
+            <button class="button-text">Get in touch</button>
+          </form>
+          <div class="final-text">
+            <div class="details">
+              <p class="email">noumbuht@gmail.com</p>
+              <div class="contact-b">
+                <img
+                  src="./images/works-img/footer-backgroung.svg"
+                  alt="footer-backgroung"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div>
+        <ul class="socials-end">
+          <li>
+            <img src="./images/mobile-first-img/github.svg" alt="github" />
+          </li>
+          <li>
+            <img src="./images/mobile-first-img/linkedin.svg" alt="linkeldn" />
+          </li>
+          <li>
+            <img src="./images/mobile-first-img/twitter.svg" alt="twitter" />
+          </li>
+          <li>
+            <img
+              src="./images/mobile-first-img/angellist.svg"
+              alt="angellist"
+            />
+          </li>
+          <li>
+            <img src="./images/mobile-first-img/medium.svg" alt="medium" />
+          </li>
+        </ul>
+      </div>
     </main>
+    <div class="detail" id="detail-container">
+      <div class="detail-container">
+        <button class="detail-close-btn" id="close-card" onclick="closeModal()"></button>
+        <div class="image-container"></div>
+        <div class="detail-text-container">
+          <div class="detail-header-box">
+            <h3 class="detail-text-header" id="detail-title">
+              Keeping track of hundreds of components
+            </h3>
+            <div class="detail-btn-box">
+              <button class="detail-btn">
+                See live<a href="https://axcell-0.github.io/portfolio-setup"
+                  ><img
+                    src="./images/popup-img/seelive-btn.svg"
+                    alt="Live icon"
+                /></a>
+              </button>
+              <button class="detail-btn">
+                See source<a href="https://github.com/axcell-0"
+                  ><img
+                    src="./images/popup-img/seesrc-btn.svg"
+                    alt="GitHub icon"
+                /></a>
+              </button>
+            </div>
+          </div>
+          <ul class="detail-list-box">
+            <li class="list-items">Codekit</li>
+            <li class="list-items">GitHub</li>
+            <li class="list-items">JavaScript</li>
+            <li class="list-items">Bootstrap</li>
+            <li class="list-items">Terminal</li>
+            <li class="list-items">Codepen</li>
+          </ul>
+          <div class="detail-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it 1960s with the releaLorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it
+            1960s with the relea<br />
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

@@ -184,12 +184,12 @@ body {
 
 .section-placeholder {
   margin-top: 50px;
-  width: 100%;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px;
+  gap: 2rem;
 }
 
 .placeholder-container {
@@ -528,9 +528,10 @@ textarea {
   .header {
     display: flex;
     justify-content: center;
-    padding: 5%;
+    padding: 5px;
     position: relative;
     z-index: 1;
+    margin: 20px;
   }
 
   .headline {
@@ -1083,6 +1084,7 @@ textarea {
 
 .detail {
   position: fixed;
+  display: none;
   z-index: 9999;
   box-shadow: 0 4px 8px rgba(37, 47, 137, 0.08);
   padding: 20px;
@@ -1091,9 +1093,8 @@ textarea {
   border-radius: 10px;
 }
 
-.hidden,
 .detail-view {
-  display: none;
+  display: block;
 }
 
 .primary-text {
@@ -1109,7 +1110,7 @@ textarea {
   color: #36b37e;
 }
 
-.third-text {
+/* .third-text {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -1140,4 +1141,4 @@ textarea {
   letter-spacing: 0.03em;
   padding: 10px;
   border-radius: 4px;
-}
+} */
