@@ -740,10 +740,6 @@ textarea {
 
   /* Detail view */
 
-  .detail-container {
-    display: none;
-  }
-
   .detail {
     top: 50%;
     left: 50%;
