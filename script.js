@@ -94,3 +94,4 @@ displaySectionPlaceHolder();
 const button = document.getElementById('openModal');
 
 button.addEventListener('click', openModal());
+button.addEventListener('click', closeModal());

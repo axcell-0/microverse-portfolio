@@ -870,6 +870,7 @@ textarea {
     display: none;
   }
 }
+
 @media only screen and (min-width: 1000px) {
   .section6 {
     display: grid;
