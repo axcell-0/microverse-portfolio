@@ -106,3 +106,9 @@ form.addEventListener('submit', (event) => {
     errorMessage.textContent = 'Please enter a lowercase email address.';
   }
 });
+// form.addEventListener('submit', (event) => {
+//   if (emailInput.value !== emailInput.value.toLowerCase()) {
+//     event.preventDefault();
+//     errorMessage.textContent = 'Please enter a lowercase email address.';
+//   }
+// });
