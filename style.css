@@ -1128,14 +1128,6 @@ textarea {
   list-style: none;
 }
 
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin-top: 64px;
-}
-
 .list-items {
   font-weight: 600;
   background: #ebf0ee;
