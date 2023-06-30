@@ -1120,22 +1120,6 @@ textarea {
   text-align: center;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  list-style: none;
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin-top: 64px;
-}
-
 .list-items {
   font-weight: 600;
   background: #ebf0ee;
