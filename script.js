@@ -106,6 +106,4 @@ if (savedFormData) {
     const input = form.elements[name];
     if (input) {
       input.value = value;
-    }
-  });
 }
