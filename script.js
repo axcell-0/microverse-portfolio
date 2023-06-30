@@ -95,14 +95,3 @@ const button = document.getElementById('openModal');
 
 button.addEventListener('click', openModal());
 button.addEventListener('click', closeModal());
-
-const form = document.getElementById('contactForm');
-const emailInput = form.querySelector('#email');
-const errorMessage = form.querySelector('#error-message');
-
-form.addEventListener('submit', (event) => {
-  if (emailInput.value !== emailInput.value.toLowerCase()) {
-    event.preventDefault();
-    errorMessage.textContent = 'Please enter a lowercase email address.';
-  }
-});
