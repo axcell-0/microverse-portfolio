@@ -90,8 +90,8 @@ const displaySectionPlaceHolder = () => {
   });
 };
 displaySectionPlaceHolder();
-
+const close = document.querySelector('.button');
 const button = document.getElementById('openModal');
 
 button.addEventListener('click', openModal());
-button.addEventListener('click', closeModal());
+close.addEventListener('click', closeModal());
