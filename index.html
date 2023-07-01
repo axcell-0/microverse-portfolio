@@ -176,7 +176,7 @@
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
           </p>
-          <form action="https://formspree.io/f/xwkjrzvw" method="POST">
+          <form id="contactForm" action="https://formspree.io/f/xwkjrzvw" method="POST">
             <ul class="inputs">
               <li>
                 <label for="name"></label>
@@ -193,7 +193,7 @@
                 <label for="email"></label>
                 <input
                   type="email"
-                  id="mail"
+                  id="email"
                   name="email"
                   required
                   placeholder="Email address"
@@ -210,7 +210,8 @@
                 ></textarea>
               </li>
             </ul>
-            <button class="button-text">Get in touch</button>
+            <div id="error-message" class="error-message"></div>
+            <button class="button-text" type="submit">Get in touch</button>
           </form>
           <div class="final-text">
             <div class="details">
